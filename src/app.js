@@ -7,4 +7,7 @@ app.use(express.json());
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/repairs", repairsRouter);
 
+const cors = require("cors");
+app.use(cors());
+
 module.exports = app;

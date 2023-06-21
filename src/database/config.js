@@ -4,7 +4,7 @@ const db = new Sequelize({
   dialect: "mysql",
   host: "localhost",
   username: "root",
-  password: "root",
+  password: "",
   database: "dbmotors",
   port: 3306,
   logging: false,
